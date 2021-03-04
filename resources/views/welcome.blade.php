@@ -13,7 +13,7 @@
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="http://127.0.0.1:8000/about" >About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact Us</a>
@@ -28,7 +28,7 @@
 <div class="col" style="background-image:url(img/Kita.png); background-size:cover; height: 967px;">
         <br><br><br><br><br><img class="ml-auto d-block"src="{{asset('/img/Logo UMM.png')}}" width="200px">
     <h1 class="text-light"style="font-family:Mont; font-size:450%">
-       <strong><br>Bagikan<br>ceritamu<br>disini <br></strong><br><button class="btn btn-danger">Login</button>
+       <strong><br>Bagikan<br>ceritamu<br>disini <br></strong><br><a href="http://127.0.0.1:8000/login" style="color:white"><button class="btn btn-danger">Login</button></a>
     </h1>
 
     </div>
@@ -44,13 +44,13 @@
 
 
         <div class="row" style="background-image:url(img/field.jpg); width: 1224px; height: 400px;">
-          <div class="col-md-4">
+          <div class="col-4">
           <h2 style="font-family:Gotham Black; color:#FFFFFF"><br><strong>Bagikan Ceritamu Disini</strong><br></h2>
           <h4 style="font-family:Gotham; color:#FFFFFF">Dengan forum ini seluruh keluarga UMM bisa memiliki tempat untuk saling bertukar pikiran dan informasi</h4><br>
           <button class="btn btn-dark">More</button>
           <br/>
           </div>
-          <div class="col-md-4">
+          <div class="col-4">
           <h2 style="font-family:Gotham Black; color:#FFFFFF"><br><strong>Info Terupdate UMM</strong><br></h2>
           <h4 style="font-family:Gotham; color:#FFFFFF">Yuk Jelajahi info-info ter-update dan valid seputar kampus UMM. Jangan lupa update keseruan kalian juga ya!</h4><br>
           <button class="btn btn-dark">More</button>
@@ -63,7 +63,7 @@
           <br/>
         </div>
     </div>
-     
+  </div>
     <br><img class="mx-auto d-block" src="{{asset('/img/Db.png')}}"width="700px">
 
     <h2 style="font-family:Gotham; color:#000000;" class="text-center">
@@ -78,21 +78,21 @@
     <div class="container-fluid">
 
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-4">
         <img class="mx-auto d-block" src="{{asset('/img/Niko.jpg')}}" width="250px">
           <h5 style="font-family:Gotham; color:#000000;"class="ml-5 pl-3">
             <br><br><strong>Niko</strong> Silabest <br><br>@niko_silabest
           </h5>
           <br/>
         </div> 
-        <div class="col-md-4">
+        <div class="col-4">
         <img class="mx-auto d-block" src="{{asset('/img/Choirul.jpg')}}" width="250px">
           <h5 style="font-family:Gotham; color:#000000;"class="ml-5 pl-3">
             <br><br><strong>Choirul</strong> Septyono <br><br>@lurioyt.77
           </h5>
           <br/>
         </div>
-        <div class="col-md-4">
+        <div class="col-4">
         <img class="mx-auto d-block" src="{{asset('/img/Evina.jpg')}}" width="250px">
           <h5 style="font-family:Gotham; color:#000000;"class="ml-5 pl-3">
             <br><br>Nur<strong> Evina</strong> Maknun <br><br>@nurevina_
@@ -127,4 +127,4 @@
       </div>
     </div>
 
-@endsection
+@endsectiongit 
